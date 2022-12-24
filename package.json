@@ -1,6 +1,22 @@
 {
   "name": "ng-msal-poc",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "description": "User authentication in Angular SPA using MSAL.js 2.0 with auth code flow",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dev-shuvodip/ng-msal-user-auth-poc.git"
+  },
+  "keywords": [
+    "angular",
+    "msal.js",
+    "authentication"
+  ],
+  "author": "Shuvodip Ray <chrispbacon961@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dev-shuvodip/ng-msal-user-auth-poc/issues"
+  },
+  "homepage": "https://github.com/dev-shuvodip/ng-msal-user-auth-poc#readme",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -11,13 +27,17 @@
   "private": true,
   "dependencies": {
     "@angular/animations": "^14.1.0",
+    "@angular/cdk": "^14.1.2",
     "@angular/common": "^14.1.0",
     "@angular/compiler": "^14.1.0",
     "@angular/core": "^14.1.0",
     "@angular/forms": "^14.1.0",
+    "@angular/material": "^14.1.2",
     "@angular/platform-browser": "^14.1.0",
     "@angular/platform-browser-dynamic": "^14.1.0",
     "@angular/router": "^14.1.0",
+    "@azure/msal-angular": "^2.5.1",
+    "@azure/msal-browser": "^2.32.1",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
