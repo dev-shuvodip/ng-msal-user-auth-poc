@@ -1,7 +1,7 @@
 {
   "name": "ng-msal-poc",
   "version": "1.0.0",
-  "description": "User authentication in Angular SPA using MSAL.js 2.0 with auth code flow",
+  "description": "User Authentication in Angular SPA using MSAL.js 2.0 with auth code flow",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dev-shuvodip/ng-msal-user-auth-poc.git"
